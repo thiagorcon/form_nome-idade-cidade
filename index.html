@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="./script.js" defer></script>
+</head>
+<body>
+     <header>
+          <h1 class="titulo">Formulário Cadastro</h1>
+     </header>
+     <main>
+          <form action="" class="formClass">
+               <label class="labelNome" for="">nome</label>
+               <input class="inputNome" id="inputNome" value="" type="text">
+               <label for="" class="labelIdade">Idade</label>
+               <input type="number" id="inputIdade" value="">
+               <label for="">sexo</label>
+               <select name="" id="inputPegaSexo">
+                    <option value="">escolha aqui</option>
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+               </select>
+               <button class="btn" onclick="enviarDados(event)" type="submit">enviar</button>
+               
+          </form>
+          <aside>
+               <button type="submit" class="btn" onclick="dadosTela()">clicar </button>
+               <ul class="listaNomes" id="listaNomes">
+                    
+               </ul>
+          </aside> 
+     </main>
+    
+     <footer>
+          <p class="parFooter">by thiago 2024.</p>
+     </footer>
+     
+</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     display: flex;
+     flex-direction: column;
+     
+}
+
+header{
+     width: 100vw;
+     height: 10vh;
+     background-color: blue;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+main{
+     width: 100vw;
+     height: 80vh;
+     background-color: lightblue;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap : 30px;
+
+}
+
+.formClass{
+     width: 18.75rem;
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     background-color: lightgray;
+     color: red;
+     padding: 10px;
+     gap: 10px;
+}
+
+aside{
+     width: 300px;
+     height: auto;
+     background-color: beige;
+}
+
+footer{
+     width: 100vw;
+     height: 10vh;
+     background-color: blue;
+     display: flex;
+     align-items: center;
+     justify-content: center
+}
+
+.btn{
+     width: 100px;
+     padding: 10px;
+     
+}
+
+li{
+     list-style: none;
+}
